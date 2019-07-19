@@ -1,0 +1,116 @@
+body {
+    transform: scale(0.85);
+    transform-origin: 0 0;
+    font-family: "italic";
+    padding:0.5em;
+    margin: 0.5em;
+    background-color: rgba(213, 217, 225, 0.926);
+}
+h1 {
+    font: bold 46px/40px "Helvetica", "Arial", sans-serif;
+    background: rgba(225, 221, 221, 0.687);
+    letter-spacing: -2px;
+    margin: 0 0 10px 0;
+    padding: 6px 6px 8px;
+}
+
+#tabGrid {
+    position: relative;
+    margin: 0; 
+    display: flex;
+}
+
+table {
+    flex:1;
+}
+  .alive{
+    background-color: white;
+  }
+  .dead{
+    background-color: black;
+  }
+
+
+td {
+    position: relative;
+    border:1px rgb(34, 34, 34) solid;
+    width: 1rem !important;
+    height: 0.5rem;
+    
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(6, 27, 122);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #1303f0}
+  
+  .button:active {
+    background-color: #f01303;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .box {
+    margin: 0 0 26px 0;
+    font: 12px "Verdana", sans-serif;
+  }
+  
+  .box .subtitle {
+    font: bold 16px "Helvetica", "Arial", sans-serif;
+    background: #BBB;
+    letter-spacing: -1px;
+    margin: 0 0 8px 0;
+    color: #222;
+    padding: 2px 4px 1px 4px;
+    clear: both;
+  }
+  
+  .box .info {
+    margin: 4px 0;
+  }
+  
+.box input {
+    border-bottom: 2px solid #333333;
+    border-right: 2px solid #333333;
+    border-top: 2px solid #AAAAAA;
+    border-left: 2px solid #AAAAAA;
+    background: #FFFFFF;
+    font-size: 24px;
+    line-height: 26px;
+  }
+  
+  .box input:hover {
+    border-bottom: 2px solid #AAAAAA;
+    border-right: 2px solid #AAAAAA;
+    border-top: 2px solid #333333;
+    border-left: 2px solid #333333;
+    cursor: pointer;
+  }
+  
+  .box #exportUrl {
+    font-size: 24px;
+    display: none;
+  }
+  
+  .box #exportUrl a {
+    border-bottom: 2px solid #AAAAAA;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .box.layout span {
+    display: inline;
+    font-size: 20px;
+    padding: 0 0 0 10px;
+  }
